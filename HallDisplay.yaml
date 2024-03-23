@@ -25,7 +25,7 @@ blueprint:
       name: The ID of the browser to update
       description: Choose the browser
       selector:
-        entity:
+        device:
  
     path_default:
       name: Default view
