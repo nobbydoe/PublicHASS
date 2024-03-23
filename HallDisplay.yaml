@@ -17,7 +17,7 @@ blueprint:
     Lastly you will need to select a timeout in seconds before the device navigates back to the default view.
     copied from https://github.com/J-Lindvig/HomeAssistant/blob/master/blueprints/automation/J-Lindvig/default_view.yaml
     
-  source_url: https://github.com/nobbydoe/PublicHASS/edit/main/HallDisplay.yaml
+  source_url: https://github.com/nobbydoe/PublicHASS/blob/main/HallDisplay.yaml
   domain: automation
 
   input:
