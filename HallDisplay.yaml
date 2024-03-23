@@ -25,8 +25,9 @@ blueprint:
       name: The ID of the browser to update
       description: Choose the browser
       selector:
-        device:
- 
+        entity:
+          domain: sensor
+
     path_default:
       name: Default view
       description: Path of the default view ex. '/dashboard-display/0'
