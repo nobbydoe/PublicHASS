@@ -24,7 +24,7 @@ blueprint:
       description: Choose the browser
       selector:
         entity:
-          domain: sensor
+          domain: device
 
     path_default:
       name: Default view
