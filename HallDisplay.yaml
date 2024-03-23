@@ -27,7 +27,7 @@ blueprint:
       selector:
         device:
           filter:
-            - integration: Browser mod
+            - integration: "Browser mod"
             
     path_default:
       name: Default view
