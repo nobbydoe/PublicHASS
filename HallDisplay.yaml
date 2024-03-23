@@ -26,9 +26,7 @@ blueprint:
       description: Choose the browser
       selector:
         entity:
-          filter:
-            - integration: "Browser mod"
-            
+ 
     path_default:
       name: Default view
       description: Path of the default view ex. '/dashboard-display/0'
