@@ -21,7 +21,7 @@ blueprint:
   domain: automation
 
   input:
-    browser_id:
+    device:
       name: The ID of the browser to update
       description: Choose the browser
       selector:
@@ -49,12 +49,12 @@ blueprint:
 mode: restart
 max_exceeded: silent
 variables:
-  device: !input browser_id
+  device: !input device
   path_default: !input path_default
   timeout: !input timeout
 trigger:
 - platform: state
-  entity_id: !input browser_id
+  entity_id: !input device
   attribute: path
 action:
   - delay: "{{ timeout }}"
