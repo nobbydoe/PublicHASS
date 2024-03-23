@@ -22,12 +22,10 @@ blueprint:
 
   input:
     device:
-      name: The ID of the browser to update
+      name: The browser to update
       description: Choose the browser
       selector:
         device:
-          filter:
-            integration: "Browser mod"
 
     path_default:
       name: Default view
